@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "strict": true,
+    "alwaysStrict": true,
+    "outDir": "./build",
+    "noImplicitAny": true,
+    "paths": {
+      "*": ["./node_modules/*"]
+    },
+    "lib": ["DOM"]
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "test-electron-typescript",
+  "version": "1.0.0",
+  "description": "Electronjs app + typescript + eslint setup",
+  "main": "./build/main.js",
+  "scripts": {
+    "start": "npm run build && cp -R ./src/static ./build/static && electron ./build/main.js",
+    "build": "tsc"
+  },
+  "author": "Evgeny Lyozin evgenylyozindev@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "electron": "^22.0.0",
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.4"
+  }
+}
